@@ -1,0 +1,36 @@
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100vh;
+    transition: all .5s ease-in-out;
+    padding: 20px 0;
+    background-color: white;
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.menu-header img{
+    width: 32px;
+}
+
+.menu-body a{
+    text-decoration:  none;
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.menu-body{
+    display: flex;
+    flex-direction: column;
+}
+.hide-menu{
+    right: -100%!important;
+}

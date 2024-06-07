@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="coffee" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="/assets/css/plugins/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <title>Coffee house</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/assets/images/logo.svg" alt="Coffee">
+                    <span>Coffee</span>
+                </div>
+    
+                <nav>
+                    <a href="#drinks">Напитки</a>
+                    <a href="#deserts">Десерты</a>
+                    <a href="#snacks">Снэки</a>
+                </nav>
+    
+                <div class="address-link">
+                    <img src="/assets/images/map.svg" alt="Map">
+                    <a href="https://2gis.kz/ustkam/firm/12807639721318682" target="_blank">ул.Казахстан 59</a>
+                </div>
+    
+                <button class="toggle-btn" onclick="toggleMenu();">
+                    <img src="/assets/images/menu.svg" alt="Menu">
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="menu hide-menu">
+        <div class="container">
+            <div class="menu-header">
+                <img src="assets/images/close.svg" onclick="toggleMenu();" alt="Close">
+            </div>
+            <div class="menu-body">
+                <a href="#drinks" onclick="toggleMenu();">Напитки</a>
+                <a href="#deserts" onclick="toggleMenu();">Десерты</a>
+                <a href="#snacks" onclick="toggleMenu();">Снэки</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- hero -->
+        <section>
+            <div class="container">
+                <div class="hero-block">
+                    <div class="block">
+                        <h1 class="wow fadeInUp">Кофе высшего сорта из Латинской Америки</h1>
+                        <p class="wow fadeInUp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, amet libero tenetur vero earum eos cumque labore nobis mollitia explicabo</p>
+                    </div>
+                    <div class="block">
+                        <img src="assets/images/main.png" class="hero-img wow fadeInRight" alt="Main">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider -->
+        <section>
+            <div class="container">
+                <div class="interior-block wow fadeInUp">
+                    <div class="slider owl-theme owl-carousel">
+                        <img src="/assets/images/interior/slide-1.jpg" alt="">
+                        <img src="/assets/images/interior/slide-2.jpg" alt="">
+                        <img src="/assets/images/interior/slide-3.jpg" alt="">
+                        <img src="/assets/images/interior/slide-4.jpg" alt="">
+                        <img src="/assets/images/interior/slide-5.jpg" alt="">
+                        <img src="/assets/images/interior/slide-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- drinks -->
+        <section id="drinks">
+            <div class="container">
+                <div class="products-content">
+                    <h2 class="wow fadeInUp">Напитки</h2>
+                    <div class="grid-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- deserts -->
+        <section id="deserts">
+            <div class="container">
+                <div class="products-content">
+                    <h2 class="wow fadeInUp">Десерты</h2>
+                    <div class="grid-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- snacks -->
+        <section id="snacks">
+            <div class="container">
+                <div class="products-content">
+                    <h2 class="wow fadeInUp">Закуски</h2>
+                    <div class="grid-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/plugins/jquery.min.js"></script>
+    <script src="assets/js/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>
